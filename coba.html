@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    <title>EBookStore - Toko Buku Digital Terpercaya</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.6.0/css/glide.core.min.css" rel="stylesheet">    <link href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.6.0/css/glide.theme.min.css" rel="stylesheet">
+    <link href="https://ai-public.creatie.ai/gen_page/tailwind-custom.css" rel="stylesheet">    <script src="https://cdn.tailwindcss.com/3.4.5?plugins=forms@0.5.7,typography@0.5.13,aspect-ratio@0.4.2,container-queries@0.1.1"></script>
+    <script src="https://ai-public.creatie.ai/gen_page/tailwind-config.min.js" data-color="#000000" data-border-radius="small"></script>
+</head>
+<body class="bg-gray-50">
+    <header class="bg-white shadow-sm fixed w-full z-50">
+        <nav class="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">            <div class="flex justify-between h-16">
+                <div class="flex">
+                    <div class="flex-shrink-0 flex items-center">                        <img class="h-8 w-auto" src="https://ai-public.creatie.ai/gen_page/logo_placeholder.png" alt="EBookStore">                    </div>
+                    <div class="hidden sm:ml-6 sm:flex sm:space-x-8">
+                        <a href="#" class="border-custom text-custom inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">                            Beranda
+                        </a>
+                        <a href="#" class="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">                            Kategori
+                        </a>
+                        <a href="#" class="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">                            Tentang Kami
+                        </a>
+                        <a href="#" class="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">                            Kontak
+                        </a>
+                    </div>
+                </div>
+                <div class="flex items-center">                    <div class="flex-1 flex items-center justify-center px-2 lg:ml-6 lg:justify-end">
+                        <div class="max-w-lg w-full lg:max-w-xs">                            <label for="search" class="sr-only">Cari</label>
+                            <div class="relative">
+                                <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">                                    <i class="fas fa-search text-gray-400"></i>
+                                </div>
+                                <input id="search" name="search" class="block w-full pl-10 pr-3 py-2 border border-gray-300 rounded-md leading-5 bg-white placeholder-gray-500 focus:outline-none focus:placeholder-gray-400 focus:ring-1 focus:ring-custom focus:border-custom sm:text-sm" placeholder="Cari ebook..." type="search">                            </div>
+                        </div>
+                    </div>
+                    <div class="flex items-center ml-4 md:ml-6">                        <button class="bg-gray-50 p-1 rounded-full text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-custom">                            <span class="sr-only">Keranjang</span>
+                            <i class="fas fa-shopping-cart"></i>                        </button>
+                        <div class="ml-3 relative">
+                            <button class="bg-custom border-transparent text-white !rounded-button px-4 py-2 text-sm font-medium hover:bg-custom/90">                                Masuk
+                            </button>
+                        </div>
+                    </div>                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="pt-16">
+        <!-- Hero Section -->
+        <div class="glide relative" style="margin-top: 1px;">            <div class="glide__track" data-glide-el="track">
+                <ul class="glide__slides">
+                    <li class="glide__slide">                        <div class="relative">
+                            <img src="https://creatie.ai/ai/api/search-image?query=A modern library interior with rows of books, soft lighting, and digital devices displaying ebooks. The scene has a warm and inviting atmosphere with contemporary furniture and reading spaces&width=1440&height=500&orientation=landscape&flag=a587ce26-faad-4a8b-afae-48c79fa966c8" class="w-full h-[500px] object-cover" alt="Promo 1">                            <div class="absolute inset-0 bg-gradient-to-r from-black/60 to-transparent flex items-center">
+                                <div class="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">                                    <div class="max-w-lg">
+                                        <h1 class="text-4xl font-bold text-white mb-4">Temukan Ribuan eBook Berkualitas</h1>
+                                        <p class="text-lg text-white mb-6">Baca di mana saja dan kapan saja dengan koleksi eBook terlengkap kami</p>                                        <button class="bg-custom text-white !rounded-button px-6 py-3 text-lg font-medium hover:bg-custom/90">                                            Mulai Membaca
+                                        </button>
+                                    </div>                                </div>
+                            </div>
+                        </div>
+                    </li>                    <!-- Add more slides as needed -->
+                </ul>
+            </div>
+            <div class="glide_bullets" data-glide-el="controls[nav]">                <button class="glide_bullet" data-glide-dir="=0"></button>
+                <button class="glide__bullet" data-glide-dir="=1"></button>
+                <button class="glide__bullet" data-glide-dir="=2"></button>
+            </div>
+        </div>
+
+        <!-- Categories Section -->        
+         <section class="py-12 bg-white">
+            <div class="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="text-3xl font-bold text-gray-900 mb-8">Kategori Populer</h2>
+                <div class="grid grid-cols-2 gap-6 sm:grid-cols-3 lg:grid-cols-6">
+                    <a href="#" class="group">                        <div class="flex flex-col items-center p-6 bg-gray-50 rounded-lg transition duration-300 hover:bg-gray-100">                            <i class="fas fa-book text-3xl text-custom mb-4"></i>
+                            <h3 class="text-lg font-medium text-gray-900">Novel</h3>
+                        </div>
+                    </a>
+                    <a href="#" class="group">
+                        <div class="flex flex-col items-center p-6 bg-gray-50 rounded-lg transition duration-300 hover:bg-gray-100">                            <i class="fas fa-graduation-cap text-3xl text-custom mb-4"></i>
+                            <h3 class="text-lg font-medium text-gray-900">Pendidikan</h3>
+                        </div>
+                    </a>
+                    <a href="#" class="group">
+                        <div class="flex flex-col items-center p-6 bg-gray-50 rounded-lg transition duration-300 hover:bg-gray-100">                            <i class="fas fa-chart-line text-3xl text-custom mb-4"></i>
+                            <h3 class="text-lg font-medium text-gray-900">Bisnis</h3>
+                        </div>
+                    </a>
+                    <a href="#" class="group">
+                        <div class="flex flex-col items-center p-6 bg-gray-50 rounded-lg transition duration-300 hover:bg-gray-100">                            <i class="fas fa-laptop-code text-3xl text-custom mb-4"></i>
+                            <h3 class="text-lg font-medium text-gray-900">Teknologi</h3>
+                        </div>
+                    </a>
+                    <a href="#" class="group">
+                        <div class="flex flex-col items-center p-6 bg-gray-50 rounded-lg transition duration-300 hover:bg-gray-100">                            <i class="fas fa-heart text-3xl text-custom mb-4"></i>
+                            <h3 class="text-lg font-medium text-gray-900">Romansa</h3>
+                        </div>
+                    </a>
+                    <a href="#" class="group">
+                        <div class="flex flex-col items-center p-6 bg-gray-50 rounded-lg transition duration-300 hover:bg-gray-100">                            <i class="fas fa-brain text-3xl text-custom mb-4"></i>
+                            <h3 class="text-lg font-medium text-gray-900">Pengembangan Diri</h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>        <!-- Featured Products -->
+        <section class="py-12 bg-gray-50">
+            <div class="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">                <h2 class="text-3xl font-bold text-gray-900 mb-8">Buku Terlaris</h2>
+                <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">                    <div class="bg-white rounded-lg shadow-sm overflow-hidden">
+                        <img src="https://creatie.ai/ai/api/search-image?query=A professional book cover design for a business strategy book with modern typography and minimal geometric patterns on a clean white background&width=400&height=500&orientation=portrait&flag=4be4382e-fb0f-4c57-b2a8-17eb1c592934" class="w-full h-64 object-cover" alt="Book 1">                        <div class="p-6">
+                            <h3 class="text-lg font-medium text-gray-900 mb-2">Strategi Bisnis Digital</h3>                            <p class="text-sm text-gray-500 mb-2">Oleh John Smith</p>
+                            <div class="flex items-center mb-4">                                <div class="flex text-yellow-400">
+                                    <i class="fas fa-star"></i>                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                                <span class="ml-2 text-sm text-gray-500">(128)</span>
+                            </div>
+                            <div class="flex items-center justify-between">
+                                <span class="text-lg font-bold text-gray-900">Rp 199.000</span>
+                                <button class="bg-custom text-white !rounded-button px-4 py-2 text-sm font-medium hover:bg-custom/90">                                    <i class="fas fa-shopping-cart mr-2"></i>
+                                    Tambah
+                                </button>                            </div>
+                        </div>
+                    </div>
+                    <!-- More featured books -->                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials -->
+        <section class="py-12 bg-white">            <div class="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="text-3xl font-bold text-gray-900 mb-8">Apa Kata Mereka</h2>
+                <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+                    <div class="bg-gray-50 rounded-lg p-6">                        <div class="flex items-center mb-4">
+                            <img class="h-12 w-12 rounded-full" src="https://creatie.ai/ai/api/search-image?query=Professional headshot of a young Indonesian woman smiling at the camera with a clean background&width=100&height=100&orientation=squarish&flag=a51c14c3-662c-4d5e-80d1-41076300a124" alt="Testimonial 1">                            <div class="ml-4">
+                                <h4 class="text-lg font-medium text-gray-900">Sarah Wijaya</h4>                                <div class="flex text-yellow-400">
+                                    <i class="fas fa-star"></i>                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>                        </div>
+                        <p class="text-gray-600">"Koleksi ebooknya lengkap dan mudah diakses. Saya sangat senang bisa membaca di mana saja menggunakan aplikasi ini."</p>                    </div>
+                    <!-- More testimonials -->
+                </div>
+            </div>
+        </section>    </main>
+
+    <footer class="bg-gray-900">
+        <div class="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+            <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">                <div>
+                    <img class="h-8 w-auto mb-4" src="https://ai-public.creatie.ai/gen_page/logo_placeholder.png" alt="EBookStore">                    <p class="text-gray-400">Toko buku digital terpercaya dengan koleksi terlengkap untuk semua kebutuhan membaca Anda.</p>                </div>
+                <div>
+                    <h3 class="text-white font-medium mb-4">Layanan</h3>
+                    <ul class="space-y-2">                        <li><a href="#" class="text-gray-400 hover:text-white">Cara Pembelian</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Pembayaran</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">FAQ</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-white font-medium mb-4">Kontak</h3>
+                    <ul class="space-y-2">
+                        <li class="flex items-center text-gray-400">
+                            <i class="fas fa-envelope w-5"></i>
+                            <span>support@ebookstore.com</span>
+                        </li>
+                        <li class="flex items-center text-gray-400">                            <i class="fas fa-phone w-5"></i>
+                            <span>+62 21 1234 5678</span>
+                        </li>                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-white font-medium mb-4">Ikuti Kami</h3>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white">                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white">                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white">                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>            </div>
+            <div class="border-t border-gray-800 mt-8 pt-8">
+                <p class="text-center text-gray-400">&copy; 2024 EBookStore. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.6.0/glide.min.js"></script>
+    <script>
+        new Glide('.glide', {
+            type: 'carousel',
+            startAt: 0,
+            perView: 1,
+            autoplay: 5000
+        }).mount();
+    </script></body>
+</html>
