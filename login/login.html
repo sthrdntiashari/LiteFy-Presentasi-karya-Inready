@@ -1,12 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="stylesheet" href="login.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website Portofolio</title>
+    <link rel="stylesheet" href="login.css" />
+    <!-- Box icons link -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+    <!-- remix icons link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <!-- Google fonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <img src="/images/LiteFy .png" alt="logo" width="100px" />
+       <div class="bx bx-menu" id="menu-icon"></div>
+      <ul class="navlist">
+        <li><a href="#home">Beranda</a></li>
+        <li><a href="#about">Tentang Kami</a></li>
+        <li><a href="#kategori">Kategori</a></li>
+        <li><a href="#contact">Chatbot</a></li>
+      </ul>
+      <div class="search-bar">
+        <input type="text" placeholder="Search for books, authors, or genres">
+        <i class='bx bx-search-alt'></i>
+      </div>
+      <div class="icons">
+        <a href="#" class="h-btn">  <i class='bx bx-cart-alt'></i></a>
+        <a href="#" class="h-btn"><i class='bx bx-user-circle'></i></a>
+      </div>
+    </header>
+
+    <!-- Loginn -->
+    <div class="login-container">
+        <div class="login-form">
+          <h2>Masuk ke akun Anda</h2>
+          <form>
+            <input type="email" placeholder="Alamat Email" required>
+            <input type="password" placeholder="Kata Sandi" required>
+            <div class="form-options">
+              <label><input type="checkbox">Ingat saya</label>
+              <a href="#">Lupa kata sandi?</a>
+            </div>
+            <button class="btn-primary" type="submit">Masuk</button>
+          </form>
+          <div class="or-divider">
+            <span></span>
+            <p>Atau lanjutkan dengan</p>
+            <span></span>
+          </div>
+          <div class="social-login">
+            <button><i class='bx bxl-google'></i> Google</button>
+            <button><i class='bx bxl-facebook'></i> Facebook</button>
+          </div>
+          <p class="signup-text">Belum punya akun?</p>
+        </div>
+      </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="copyrigth">
+          <p>2024 LiteFy Team. All Rights Reserved</p>
+        </div>
+        <a href="#home" class="scroll-top">
+          <i class="ri-arrow-up-s-fill"></i>
+        </a>
+      </div>
+    <!-- link JavaScript -->
+    <script src="/js/script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 300,
+        duration: 1400,
+      });
+    </script>
+   
     
-</body>
+  </body>
 </html>
